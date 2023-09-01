@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
+ integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<style>
+   @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+     #nav1{
+        padding-left: 750px;
+        font-weight: bold;
+        font-size: 20px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;}
+      li{
+        margin-left: 30px;
+      }
+      nav{
+        flex:4;
+       background-color:lightcoral;
+    }
+    nav ul li{
+        list-style-type:none;
+        display:inline-block;
+        margin-right:30px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color:#000;
+        font-size: 14px;
+    }
+    nav ul li a:hover{
+        background-color:green;
+       
+    }
+    h1{
+      text-align:left;
+      color:#000;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      padding-top: 100px;
+      font-size:60px;
+      padding-left:30px;
+      color:blue
+    }
+    h4{
+      padding-left:30px;
+    }
+    section{
+      background:linear-gradient(to top,lightblue,lightpink);
+      height:100vh;
+    }
+    img{
+      height:40px;
+      width:40px;
+      margin-left: 10px;
+      border-radius: 50%;
+    }
+    img:hover{
+      background-color:red;
+      transition-timing-function: ease-in-out 2s;
+      transition: ease-in;
+
+    }
+    #fot{
+        height:40px;
+       list-style-type: none;
+        display: flex;
+        justify-items: center;
+        padding-left: 500px;
+      }
+      footer{
+        text-align: justify;
+        background-color: lightcyan;
+      }
+      #phot{
+        display:flex;
+      }
+      
+      @media (max-width:375px) {
+
+          section{
+            width:300px;
+            color:red;
+            text-align: left;
+          }
+          h1{
+            font-size: 20px;
+            background-color: pink;
+            
+            }
+            img{
+              height:100px;
+              width:100px;
+              display: inline;
+            }
+           
+
+      }
+      #logo p{
+        height: 40px;
+        width:50px;
+        border-radius: 100%;
+        background-color:aqua;
+        font-size: 27px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+      #h2{
+        padding-left: 500px;      }
+        h3{
+          padding-left: 600px;
+          color:crimson;
+        }
+</style>
+<body>
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light Responsive">
+       <div class="container-fluid">
+        <div id="logo"><p>RPC</p></div>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="nav1" >
+                 <li class="nav-item">
+                     <a class="nav-link active" href="responsive.html">Home</a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link active"  href="asss.html">Contact</a>
+                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link active" href="pro2.html">Gallary</a>
+                 </li>
+                  <li class="nav-item ">
+                     <a class="nav-link active" href="bio.html" >Bio</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link active" href="pro1.html" >Login</a>
+                 </li>
+             </ul>
+             
+          </div>
+        </div>
+     </nav>
+  </div>
+</div>
+<section>
+  <marquee direction="right" height="100px"><h4>This is my portfolio.Thank you to visit me</h4></marquee>
+  <div id="phot">
+      <div >
+        <h1>This is my portfolio</h1>
+        <h4>Ram Prasad Chaudhary<BR>
+          <p>Web Developer using HTML,CSS,AND JAVASCRIPT</p>
+        </h4>
+        
+      </div>
+      <div>
+        <img src="https://scontent-bom1-2.xx.fbcdn.net/v/t15.5256-10/322213126_943030260030261_3009219430003548838_n.jpg?stp=c0.220.662.662a_dst-jpg_s851x315&_nc_cat=108&ccb=1-7&_nc_sid=08638f&_nc_ohc=I72yb3OilIoAX-20KWa&_nc_ht=scontent-bom1-2.xx&oh=00_AfCeLlreocao69lItaYlecJSHXL07aXi1NvMJv3ArQiZEQ&oe=64908266" style="height:500px;width:500px;margin-left:350px;">
+       </div>
+  </div>
+
+</section>
+<footer>
+  <h3>For more</h3>
+    <div id="fot">
+ <li><a ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0Du1YjyVCpLpKBJICpdtJtr4jawfOs8Pm3T0Xw9T-3r3NH-RFTbD05TmaYk6ZNfqwDk0&usqp=CAU" alt=""></a></li>
+  <li><a href="https://imo.im"><img src="https://cdn.icon-icons.com/icons2/3567/PNG/512/social_network_imo_chat_message_media_logo_icon_225426.png" alt=""></a></li>
+  <li><a href="https://www.instagram.com"><img src="https://img.icons8.com/ios/1x/instagram-new--v3.png" alt=""></a></li>
+  <li><a href="https://www.facebook.com"><img src="https://www.freepnglogos.com/uploads/logo-facebook-png/logo-facebook-facebook-logo-png-transparent-svg-vector-bie-supply-18.png" alt=""></a></li>
+</div>
+<a href=""><h2 id="h2">ramprasadc331@gmail.com</h2></a>
+</footer>
+</body>
+</html>
